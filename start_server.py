@@ -9,7 +9,7 @@ import datetime
 import time
 
 host = {
-        "ip":"192.168.120.35",
+        "ip":"The local ip",
         "port":9897,
         "mysql_address":"Your e-mail address",
         "mysql_username":"Database Username",
