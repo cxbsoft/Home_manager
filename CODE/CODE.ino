@@ -90,14 +90,14 @@ void setup(){
   olqsoft.begin(9600);
   //to_beetle.begin(9600);
   servo_door.attach(5);
-  olq.startConnect(&olqsoft, "XUSOFT", "wabadmin1", "47.240.18.50", 9897);
+  olq.startConnect(&olqsoft, "SSID", "Password", "None of your bussiness,Please keep it none", 1234);
 }
 
 int sport_sensor;
 int urm_data;
 int val;
 float temp_now;
-char* server_url = "cxbsoft.cxbsoft.top:9897";
+char* server_url = "Your server's address";
 
 void loop(){
   //Main code start

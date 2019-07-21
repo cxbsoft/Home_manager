@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../css/footer.css"/>
 <div id="footer">
     Copyright © 2019 cxbsoft.All rights reserved 
-</div>
+</div><!-- Warning  -->
 <div class="mdui-drawer mdui-drawer-popen">
     <ul class="mdui-list">
         <li class="mdui-list-item mdui-ripple">

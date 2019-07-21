@@ -11,10 +11,10 @@ import time
 host = {
         "ip":"192.168.120.35",
         "port":9897,
-        "mysql_address":"cxbsoft.cxbsoft.top",
-        "mysql_username":"arduino",
-        "mysql_password":"wabadmin1",
-        "mysql_dbname":"arduino"
+        "mysql_address":"Your e-mail address",
+        "mysql_username":"Database Username",
+        "mysql_password":"Database Password",
+        "mysql_dbname":"Database Name"
 } 
 
 db = pymysql.connect(host['mysql_address'],host["mysql_username"],host['mysql_password'],host['mysql_dbname'])
@@ -27,12 +27,12 @@ def get_time():
     return time_now
 
 def send_mail(content,subject,mail_receiver):
-    mail_host="smtp.qq.com"  
-    mail_user="3319066174@qq.com"   
-    mail_pass="yvndxnfylaihcjge"   
+    mail_host="Your e-mail's server"  
+    mail_user="Your e-mail address"   
+    mail_pass="E-mail password"   
     
     
-    sender = '3319066174@qq.com'
+    sender = 'As same as $mail_user'
     receivers = mail_receiver  
     touser = "Home Master"
 

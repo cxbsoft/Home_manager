@@ -7,6 +7,5 @@
 <script src="js/mod.js"></script>
 <link rel="stylesheet" href="css/footer.css"/>
 <div id="footer">
-    Copyright © 2019 <a href="//cxbsoft.top">cxbsoft</a
->.All rights reserved 
+    Copyright © 2019 <a href="//cxbsoft.top">cxbsoft</a>.All rights reserved <!-- Do not touch it,or the auto program will process your server -->
 </div>
